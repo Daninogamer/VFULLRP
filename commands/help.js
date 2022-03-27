@@ -9,6 +9,7 @@ module.exports = {
         .addFields(
             {name: '**COMANDI UTENTE**', value: '-----------------------'},
             {name: 'help', value: 'Manda questo elenco'},
+            {name: 'assistenza', value: 'Comando per richiedere assistenza'},
             {name: 'serverinfo', value: 'Visualizza le informazioni del server'},
             {name: 'userinfo', value: 'Visualizza le informazione dell utente'},
             {name: 'botinfo', value: 'Visualizza le informazione del bot'},
@@ -17,6 +18,7 @@ module.exports = {
             {name: 'clear', value: 'Elimina un numero di messaggi'},
             {name: 'move', value: 'Sposta un utente'},
             {name: 'warn', value: 'Warna un utente'},
+            {name: 'webhook', value: 'Crea un webhook personalizzato'},
             
         )
         .setImage('https://cdn.discordapp.com/attachments/787356318100619275/957274259514851399/kisspng-ca-doro-saint-marks-basilica-vector-graphics-li-5c11460bef2db1.5948143415446359159797.png')

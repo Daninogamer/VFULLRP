@@ -23,7 +23,6 @@ client.once('ready', () => {
 })
 
 
-
 const status = [
     `| $help |`,
     `il server`,
