@@ -19,7 +19,7 @@ const fs = require('fs');
 const command = require('nodemon/lib/config/command');
 
 client.once('ready', () => {
-    console.log("6.0 è online!");
+    console.log("Venezia Full RP è online!");
 })
 
 
@@ -27,6 +27,7 @@ client.once('ready', () => {
 const status = [
     `| $help |`,
     `il server`,
+    `| ${client.users.cache.size} utenti! |`,
 ];
     
     let index = 0;
