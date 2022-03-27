@@ -27,7 +27,6 @@ client.once('ready', () => {
 const status = [
     `| $help |`,
     `il server`,
-    `| ${client.users.cache.size} utenti! |`,
 ];
     
     let index = 0;
